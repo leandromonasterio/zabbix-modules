@@ -124,6 +124,8 @@ En el directorio [`docs/`](./docs/) encontrarás guías exhaustivas paso a paso:
 - [**04 - Desarrollo de Widgets para Dashboard**](./docs/04-desarrollo-widgets.md): `WidgetForm`, `WidgetView`, ciclo de vida en JS con `CWidget` y estilos scoped.
 - [**05 - Catálogo de Componentes UI en PHP**](./docs/05-componentes-ui-zabbix.md): Uso de `CHtmlPage`, `CTableInfo`, `CFormGrid`, badges y botones oficiales.
 - [**06 - Lista de Comprobación para Publicación**](./docs/06-checklist-publicacion.md): Checklist de calidad y seguridad antes de desplegar en producción.
+- [**07 - Referencias y Casos de Estudio del Ecosistema**](./docs/07-referencias-y-casos-de-estudio.md): Análisis de arquitectura de proyectos destacados (`zabbix-network-topology`, `zabbix-module-docker`, MonZphere).
+
 
 ---
 
