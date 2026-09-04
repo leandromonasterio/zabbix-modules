@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2.0,
+  "id": "lm_quick_links",
+  "name": "Quick Links Hub",
+  "version": "1.0.0",
+  "namespace": "LmQuickLinks",
+  "author": "Leandro Monasterio",
+  "description": "Centro de accesos directos y enlaces operativos para administradores y operadores de Zabbix.",
+  "url": "https://github.com/leandromonasterio/zabbix-modules",
+  "type": "module",
+  "actions": {
+    "lm.quicklinks.view": {
+      "class": "QuickLinksView",
+      "view": "quick.links.view",
+      "layout": "layout.htmlpage"
+    }
+  },
+  "assets": {
+    "css": ["quick.links.css"]
+  },
+  "config": {
+    "company_name": "Andreani",
+    "support_contact": "soporte-monitoreo@andreani.com"
+  }
+}

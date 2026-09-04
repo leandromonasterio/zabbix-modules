@@ -1,0 +1,39 @@
+# OS and System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor and IDE configurations
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Builds and Packages
+/dist/
+/build/
+*.zip
+*.tar.gz
+/packages/
+
+# Temporary and Logs
+*.log
+/tmp/
+/scratch/
+
+# Composer and Node (if any linters/tools are added)
+vendor/
+node_modules/
+composer.lock
+package-lock.json

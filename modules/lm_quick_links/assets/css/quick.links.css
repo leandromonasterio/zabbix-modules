@@ -1,0 +1,48 @@
+/**
+ * Estilos para Quick Links Hub.
+ * Diseñados para respetar el modo oscuro y claro de Zabbix mediante variables CSS oficiales.
+ */
+
+.quick-links-nav-wrapper {
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--ui-border-color, #ebebeb);
+}
+
+.quick-links-filter-bar {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filter-pill-link {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 16px;
+    background-color: var(--ui-bg-color, #f4f5f7);
+    border: 1px solid var(--ui-border-color, #dfe1e6);
+    color: var(--ui-color-primary, #172b4d);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.15s ease-in-out;
+}
+
+.filter-pill-link:hover {
+    background-color: var(--ui-hover-color, #ebecf0);
+    text-decoration: none;
+}
+
+.filter-pill-link.is-active {
+    background-color: #0275b8;
+    border-color: #0275b8;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.quick-link-title {
+    font-weight: 600;
+    font-size: 13px;
+}

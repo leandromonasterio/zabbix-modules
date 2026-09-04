@@ -1,0 +1,26 @@
+/**
+ * Estilos específicos para la plantilla de módulo frontend.
+ */
+
+.module-hero-card {
+    background-color: var(--ui-bg-color, #ffffff);
+    border: 1px solid var(--ui-border-color, #ebebeb);
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.module-description {
+    font-size: 1.1em;
+    margin-bottom: 12px;
+}
+
+.module-meta {
+    font-size: 0.9em;
+    color: var(--ui-color-secondary, #768d99);
+}
+
+.server-time-value {
+    font-weight: bold;
+    font-family: monospace;
+}

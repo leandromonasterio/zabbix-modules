@@ -1,0 +1,35 @@
+/**
+ * Estilos aislados para el widget.
+ * Usa el selector 'div.dashboard-widget-{{MODULE_ID}}' para evitar conflictos globales.
+ */
+
+div.dashboard-widget-{{MODULE_ID}} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+div.dashboard-widget-{{MODULE_ID}} .widget-container-inner {
+    text-align: center;
+}
+
+div.dashboard-widget-{{MODULE_ID}} .widget-badge-text {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: var(--ui-color-primary, #2d3748);
+}
+
+div.dashboard-widget-{{MODULE_ID}} .widget-footer-info {
+    font-size: 0.85rem;
+    color: var(--ui-color-secondary, #718096);
+}
+
+div.dashboard-widget-{{MODULE_ID}} .widget-time {
+    font-family: monospace;
+    font-weight: bold;
+}
