@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\{{MODULE_NAMESPACE}}\Includes;
+namespace Modules\TemplateNamespace\Includes;
 
 use Zabbix\Widgets\CWidgetForm;
 use Zabbix\Widgets\Fields\CWidgetFieldTextBox;

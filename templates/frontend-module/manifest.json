@@ -1,15 +1,15 @@
 {
   "manifest_version": 2.0,
-  "id": "{{MODULE_ID}}",
-  "name": "{{MODULE_NAME}}",
+  "id": "template_module_id",
+  "name": "Template Module Name",
   "version": "1.0.0",
-  "namespace": "{{MODULE_NAMESPACE}}",
-  "author": "{{MODULE_AUTHOR}}",
-  "description": "{{MODULE_DESCRIPTION}}",
+  "namespace": "TemplateNamespace",
+  "author": "Leandro Monasterio",
+  "description": "Template Module Description",
   "url": "https://github.com/leandromonasterio/zabbix-modules",
   "type": "module",
   "actions": {
-    "{{ACTION_NAME}}": {
+    "template.action.view": {
       "class": "SampleModuleView",
       "view": "sample.module.view",
       "layout": "layout.htmlpage"

@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\{{MODULE_NAMESPACE}};
+namespace Modules\TemplateNamespace;
 
 use Zabbix\Core\CModule;
 use APP;
@@ -20,8 +20,8 @@ class Module extends CModule {
             ->findOrAdd(_('Monitoring'))
             ->getSubmenu()
             ->add(
-                (new CMenuItem(_('{{MODULE_NAME}}')))
-                    ->setAction('{{ACTION_NAME}}')
+                (new CMenuItem(_('TemplateModuleName')))
+                    ->setAction('template.action.view')
             );
     }
 }

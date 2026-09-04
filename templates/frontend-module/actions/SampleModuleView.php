@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\{{MODULE_NAMESPACE}}\Actions;
+namespace Modules\TemplateNamespace\Actions;
 
 use CController;
 use CControllerResponseData;
@@ -39,8 +39,8 @@ class SampleModuleView extends CController {
     protected function doAction(): void {
         // Lógica de negocio y preparación de datos para la vista
         $data = [
-            'module_name' => _('{{MODULE_NAME}}'),
-            'description' => _('{{MODULE_DESCRIPTION}}'),
+            'module_name' => _('TemplateModuleName'),
+            'description' => _('TemplateModuleDescription'),
             'server_time' => date('Y-m-d H:i:s')
         ];
 

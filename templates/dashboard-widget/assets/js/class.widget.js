@@ -1,8 +1,10 @@
+/* global CWidget */
+
 /**
- * Clase JavaScript para el Widget {{MODULE_NAME}}.
+ * Clase JavaScript para el Widget.
  * Extiende la clase base CWidget de Zabbix.
  */
-class {{JS_CLASS}} extends CWidget {
+class WidgetTemplate extends CWidget {
 
     onInitialize() {
         super.onInitialize();

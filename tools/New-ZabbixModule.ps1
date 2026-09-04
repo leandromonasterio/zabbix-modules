@@ -99,6 +99,20 @@ $FilesToProcess = Get-ChildItem -Path $TargetModuleDir -Recurse -File
 foreach ($file in $FilesToProcess) {
     $content = Get-Content -Path $file.FullName -Raw -Encoding UTF8
     
+    # Reemplazo de tokens estándar limpios
+    $content = $content.Replace('TemplateNamespace', $Namespace)
+    $content = $content.Replace('template_widget_id', $Id)
+    $content = $content.Replace('template_module_id', $Id)
+    $content = $content.Replace('Template Widget Name', $Name)
+    $content = $content.Replace('Template Module Name', $Name)
+    $content = $content.Replace('TemplateModuleName', $Name)
+    $content = $content.Replace('Template Widget Description', $Description)
+    $content = $content.Replace('Template Module Description', $Description)
+    $content = $content.Replace('TemplateModuleDescription', $Description)
+    $content = $content.Replace('WidgetTemplate', $JsClass)
+    $content = $content.Replace('template.action.view', $ActionName)
+    
+    # Reemplazo de marcadores entre llaves por compatibilidad
     $content = $content.Replace('{{MODULE_ID}}', $Id)
     $content = $content.Replace('{{MODULE_NAME}}', $Name)
     $content = $content.Replace('{{MODULE_NAMESPACE}}', $Namespace)

@@ -1,26 +1,26 @@
 {
   "manifest_version": 2.0,
-  "id": "{{MODULE_ID}}",
-  "name": "{{MODULE_NAME}}",
+  "id": "template_widget_id",
+  "name": "Template Widget Name",
   "version": "1.0.0",
-  "namespace": "{{MODULE_NAMESPACE}}",
-  "author": "{{MODULE_AUTHOR}}",
-  "description": "{{MODULE_DESCRIPTION}}",
+  "namespace": "TemplateNamespace",
+  "author": "Leandro Monasterio",
+  "description": "Template Widget Description",
   "url": "https://github.com/leandromonasterio/zabbix-modules",
   "type": "widget",
   "widget": {
-    "name": "{{MODULE_NAME}}",
+    "name": "Template Widget Name",
     "size": {
       "width": 12,
       "height": 6
     },
     "form_class": "WidgetForm",
-    "js_class": "{{JS_CLASS}}",
+    "js_class": "WidgetTemplate",
     "use_time_selector": false,
     "refresh_rate": 60
   },
   "actions": {
-    "widget.{{MODULE_ID}}.view": {
+    "widget.template_widget_id.view": {
       "class": "WidgetView"
     }
   },

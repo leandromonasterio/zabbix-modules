@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\{{MODULE_NAMESPACE}}\Actions;
+namespace Modules\TemplateNamespace\Actions;
 
 use CControllerDashboardWidgetView;
 use CControllerResponseData;
