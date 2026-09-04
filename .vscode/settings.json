@@ -1,4 +1,7 @@
 {
+  "intelephense.environment.includePaths": [
+    "stubs"
+  ],
   "intelephense.diagnostics.undefinedTypes": false,
   "intelephense.diagnostics.undefinedFunctions": false,
   "intelephense.diagnostics.undefinedConstants": false,
